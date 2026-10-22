@@ -14,7 +14,7 @@ class ErrorCommandExecutable extends Exception
      * @param array $output
      *
      */
-    public function __construct($message = "", $code = 0, Exception $previous = null, $output = [])
+    public function __construct($message = "", $code = 0, ?Exception $previous = null, $output = [])
     {
         $message = '';
 

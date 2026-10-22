@@ -71,7 +71,7 @@ class PHPJasper
     /**
      * PHPJasper constructor
      */
-    public function __construct(string $pathExecutable = null)
+    public function __construct(?string $pathExecutable = null)
     {
         $this->executable = 'jasperstarter';
         $this->pathExecutable = $pathExecutable ?? __DIR__ . '/../bin/jasperstarter/bin';
